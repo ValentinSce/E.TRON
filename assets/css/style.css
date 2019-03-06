@@ -1,0 +1,41 @@
+body{
+  background-color: #494845;
+}
+#baniere{
+  width: 100%;
+}
+/* debut gameboard */
+#canvas{;
+  /* background-image: url("../img/gameboard.jpg"); */
+  /* background-size: cover; */
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+  margin-bottom: 15%;
+  border-top: 5px solid rgb(139,69,19);
+  border-right: 5px solid rgb(139,69,19);
+  border-left: 5px solid rgb(255,255,51);
+  border-bottom: 5px solid rgb(255,255,51);
+  border-radius: 10px;
+  z-index: 0;
+}
+/* fin gameboard */
+/* Début de la fenêtre modale */
+#rulesButton{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  padding-top: 2%;
+  padding-right: 20%;
+  padding-bottom: 2%;
+  padding-left: 20%;
+  font-size: 150%;
+}
+
+#duck{
+  position: relative;
+  margin-left: 33%;
+  margin-top: 5%;
+
+}
